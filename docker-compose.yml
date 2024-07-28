@@ -1,0 +1,9 @@
+version: '3'
+services:
+  flask_api:
+    build: .
+    container_name: 'flask_api_c'
+    ports: 
+      - "5005:5000"
+    volumes:
+      - .:/app
