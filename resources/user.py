@@ -72,10 +72,3 @@ class User(MethodView):
         db.session.commit()
         return {"message": "User is successfully deleted"}, 200
     
-
-
-        
-        
-
-
-
